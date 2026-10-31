@@ -1,0 +1,16 @@
+name: 模板建议 / Template request
+description: 提出新页面、新风格或使用体验建议。
+title: "[Suggestion] "
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: 你的使用场景与建议
+      description: 说明需要什么版式、语言、内容容量或风格。
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考与来源
+      description: 可提供参考图片或链接；提交第三方素材时请附授权信息。

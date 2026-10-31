@@ -1,0 +1,23 @@
+name: 模板问题 / Bug report
+description: 报告错字、版式、字体、图表或下载问题。
+title: "[Bug] "
+body:
+  - type: input
+    id: template
+    attributes:
+      label: 模板与页码
+      placeholder: 例如：中文 02，第 4 页
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: 软件与系统
+      placeholder: 例如：PowerPoint 365 / macOS
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题描述
+      description: 请说明预期效果、实际效果及复现步骤，必要时附截图。不要上传敏感信息。
+    validations:
+      required: true
